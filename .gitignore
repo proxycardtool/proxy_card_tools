@@ -1,0 +1,15 @@
+/.idea/
+/.junie/
+/.venv/
+/raw/
+
+__pycache__/
+*.py[cod]
+/.mypy_cache/
+/.pytest_cache/
+/.ruff_cache/
+
+.env
+.env.*
+!.env.example
+!.env.sample

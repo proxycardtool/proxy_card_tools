@@ -1,0 +1,15 @@
+# Config file for proxy_card_tools.
+# Edit as needed.
+
+# Upscaling configuration
+[upscaling]
+model_path_rel = "external_data/models/2x_ModernSpanimationV1.pth"
+
+# Inpainting configuration
+[inpainting]
+model_path_rel = "external_data/models/big-lama.safetensors"
+
+# Configuration for Lord of the Rings LCG.
+[lotr]
+scan_dir_rel = "external_data/lotr-lcg-scans"
+asset_dir_rel = "external_data/lotr-lcg-assets"
